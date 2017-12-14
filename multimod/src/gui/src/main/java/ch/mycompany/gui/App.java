@@ -23,8 +23,9 @@ public class App
         }
     }
 
-    private void foo() {
+    public int foo() {
         int i = 100023;
+        return i;
     }
 
     private void bar() {
